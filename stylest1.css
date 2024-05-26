@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fd131f;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#contact {
+    background-color: #7fffd4;
+}
+
+#projects {
+    background-color: #8a2be2;
+}
+
+#skills {
+    background-color: #ff7f50;
+}
+#education {
+    background-color: hwb(169 7% 4% / 0);
+}
+#about {
+    background-color: #dc143c;
+}
+
+
+.project {
+    background-color: #89e618;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+.project h3 {
+    margin-top: 0;
+}
+
+
+.contact h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #80fe0a;
+    color: #fff;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
